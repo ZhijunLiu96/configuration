@@ -20,7 +20,7 @@ $ source venv/bin/activate
 
 ## Install Python Packages
 1. You can install python packages one by one (using ```pip install```).
-2. Or generate a requirements.txt file both manually or 
+2. Or generate a requirements.txt file 
 ```
 $ pip freeze > requirements.txt
 ```
@@ -50,13 +50,13 @@ venv
 .DS_Store
 .env
 ```
-2. Generate a ```Procfile``` file, with the following content, used for deployment.
+2. Generate a ```Procfile``` file, with the following content, used for the deployment.
 ```
 web: gunicorn app:server
 ```
 
 ## Upload Your Work to Remote Repository
-1.  Make sure the app.py is bug-free, test it before uploading to remote repository
+1.  Make sure the app.py is bug-free, test it before uploading it to remote repository
 
 ```
 $ python app.py
